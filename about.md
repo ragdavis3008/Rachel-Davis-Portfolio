@@ -1,6 +1,6 @@
 # About Me
 
-Hi, I'm **Rachel Davis** — an experienced cross-functional business professional based in Niederkassel, Germany, with over 20 years of professional experience and significant longevity with the organizations I've worked for.
+Hi, I'm **Rachel A.G. Davis** — an experienced cross-functional business professional based in Niederkassel, Germany, with over 20 years of professional experience and significant longevity with the organizations I've worked for.
 
 ## Professional Background
 
