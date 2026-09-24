@@ -116,12 +116,12 @@ I'm also expanding my experience into AI, learning how to build applications, AI
 Led business development, project and implementation management, customer relationships, service delivery, and operational initiatives across hardware and software solutions. Drove CRM and process implementations, AI-enabled workflow automations, operational improvements, and cross-functional coordination to support growth, efficiency, and customer delivery.
 
 ### mk Solutions, Inc. — USA
-**Project Manager & Office Manager** · 2013–2019
+**Sales, Project and Office Manager** · 2013–2019
 
 Managed service department operations, project delivery, office and business operations, customer coordination, sales support, implementations, and internal process improvement. Oversaw service scheduling and workflow coordination, employee onboarding, training and documentation, customer communications, and cross-functional initiatives supporting both day-to-day operations and long-term business growth.
 
 ### Texas Gulf Industries, Inc.
-**Head of Project & Operations Management / Vice President** · 1999–2013
+**Head of Business Development & Operations / Vice President** · 1999–2013
 
 Directed day-to-day business operations across all functional areas, including project and implementation management, office operations, customer coordination, sales support, service delivery, internal processes, employee onboarding and training, and cross-functional execution. Served as a central point of coordination across the business, helping manage priorities, resolve operational issues, support customers and staff, and keep projects and daily operations moving efficiently. Also managed EPA registrations, compliance requirements, and related documentation to ensure the business met applicable regulatory obligations.
 
