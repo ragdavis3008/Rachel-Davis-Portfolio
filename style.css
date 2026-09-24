@@ -170,6 +170,29 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
+/* Collapsible section headers (desktop: inert, looks like a plain heading) */
+.section-toggle {
+  all: unset;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  width: 100%;
+  cursor: default;
+}
+
+.section-toggle:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+}
+
+.toggle-icon {
+  display: none;
+  flex-shrink: 0;
+  font-size: 0.8em;
+  transition: transform 0.2s ease;
+}
+
 /* Skills */
 .skills-grid {
   display: grid;
@@ -306,6 +329,7 @@ a:hover {
 @media (max-width: 640px) {
   .nav-toggle {
     display: flex;
+    padding: 0.75rem;
   }
 
   .nav-links {
@@ -322,5 +346,105 @@ a:hover {
 
   .nav-links.open {
     display: flex;
+  }
+
+  .nav-links a {
+    display: block;
+    padding: 0.6rem 0;
+  }
+}
+
+/* Mobile / smartphone tuning */
+@media (max-width: 768px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+
+  .container {
+    padding: 0 1.25rem;
+  }
+
+  /* Compact hero */
+  .hero {
+    padding: 2.5rem 0 2rem;
+  }
+
+  .hero-photo {
+    width: 110px;
+    height: 110px;
+    margin-bottom: 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.05rem;
+  }
+
+  .hero-location {
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  /* Compact section padding/headings */
+  .section {
+    padding: 2rem 0;
+  }
+
+  .section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0.75rem;
+  }
+
+  /* Cards: single column */
+  .skills-grid,
+  .tech-categories {
+    grid-template-columns: 1fr;
+    gap: 0.6rem;
+  }
+
+  .tech-category {
+    padding: 1rem;
+  }
+
+  /* Collapsible section headers become interactive */
+  .section-toggle {
+    cursor: pointer;
+    min-height: 44px;
+    padding: 0.5rem 0;
+  }
+
+  .toggle-icon {
+    display: inline-block;
+  }
+
+  .section-toggle[aria-expanded="false"] .toggle-icon {
+    transform: rotate(-90deg);
+  }
+
+  .section-body {
+    overflow: hidden;
+    max-height: 3000px;
+    transition: max-height 0.3s ease;
+  }
+
+  .section-body.is-collapsed {
+    max-height: 0;
+  }
+
+  /* Prevent long unbroken text from causing horizontal scroll */
+  .experience-list h3,
+  .contact-list a {
+    overflow-wrap: break-word;
+    word-break: break-word;
   }
 }

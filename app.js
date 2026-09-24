@@ -14,3 +14,12 @@ navLinks.querySelectorAll("a").forEach((link) => {
     navToggle.setAttribute("aria-expanded", "false");
   });
 });
+
+document.querySelectorAll(".section-toggle").forEach((toggle) => {
+  toggle.addEventListener("click", () => {
+    const isExpanded = toggle.getAttribute("aria-expanded") === "true";
+    toggle.setAttribute("aria-expanded", String(!isExpanded));
+    const body = document.getElementById(toggle.getAttribute("aria-controls"));
+    body.classList.toggle("is-collapsed", isExpanded);
+  });
+});
