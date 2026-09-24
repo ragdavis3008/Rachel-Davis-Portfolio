@@ -113,27 +113,27 @@ I'm also expanding my experience into AI, learning how to build applications, AI
 ### mk Solutions GmbH — Germany
 **Business Development & Project Manager** · 2019–2025
 
-Business development, project management, customer management, service delivery, and operations, spanning both hardware and software projects, process improvement, and cross-functional coordination.
+Led business development, project and implementation management, customer relationships, service delivery, and operational initiatives across hardware and software solutions. Drove CRM and process implementations, AI-enabled workflow automations, operational improvements, and cross-functional coordination to support growth, efficiency, and customer delivery.
 
 ### mk Solutions, Inc. — USA
 **Project Manager & Office Manager** · 2013–2019
 
-Project management, office and business operations, customer coordination, sales support, implementation, internal processes, and cross-functional responsibilities.
+Managed service department operations, project delivery, office and business operations, customer coordination, sales support, implementations, and internal process improvement. Oversaw service scheduling and workflow coordination, employee onboarding, training and documentation, customer communications, and cross-functional initiatives supporting both day-to-day operations and long-term business growth.
 
 ### Texas Gulf Industries, Inc.
 **Head of Project & Operations Management / Vice President** · 1999–2013
 
-Leadership, project and operations management, customer relationships, business operations, and coordination across different areas of the company.
+Directed day-to-day business operations across all functional areas, including project and implementation management, office operations, customer coordination, sales support, service delivery, internal processes, employee onboarding and training, and cross-functional execution. Served as a central point of coordination across the business, helping manage priorities, resolve operational issues, support customers and staff, and keep projects and daily operations moving efficiently. Also managed EPA registrations, compliance requirements, and related documentation to ensure the business met applicable regulatory obligations.
 
 ### Black & Decker
-**Project-Based Sales & Channel Manager** · 1997–1999
+**Accounts & Channel Manager** · 1997–1999
 
-Sales, account and channel management, customer relationships, and project-based sales responsibilities.
+Led sales and marketing activities, including customer presentations, product demonstrations, promotional planning, and campaign execution. Worked closely with production teams to coordinate delivery timelines, support demand forecasting, and align customer commitments with manufacturing capacity. Developed and launched original sales promotions and marketing initiatives to drive product visibility, customer engagement, and revenue growth.
 
 ### Marriott Corporation
-**Group Sales & Catering Assistant** · 1990–1997
+**Sales and Conference Services Manager** · 1990–1997
 
-Support for group sales and catering operations, contracts and signature coordination, schedules, meeting documentation, administrative responsibilities, and working across hotel departments.
+Managed both group sales and conference services, supporting clients from initial inquiry through event execution. Coordinated contracts, signatures, meeting documentation, room and event schedules, audiovisual requirements, catering details, and cross-department communication. Oversaw employee scheduling, customer relationships, and day-to-day conference service operations, working closely with banquet, catering, front office, housekeeping, and other hotel teams to ensure successful events and a high level of guest service.
 
 ## Education & Professional Development
 
