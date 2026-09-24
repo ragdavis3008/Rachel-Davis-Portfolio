@@ -23,3 +23,11 @@ document.querySelectorAll(".section-toggle").forEach((toggle) => {
     body.classList.toggle("is-collapsed", isExpanded);
   });
 });
+
+// Sections default to collapsed for the mobile layout; start them expanded on desktop.
+if (window.matchMedia("(min-width: 769px)").matches) {
+  document.querySelectorAll('.section-toggle[aria-expanded="false"]').forEach((toggle) => {
+    toggle.setAttribute("aria-expanded", "true");
+    document.getElementById(toggle.getAttribute("aria-controls")).classList.remove("is-collapsed");
+  });
+}

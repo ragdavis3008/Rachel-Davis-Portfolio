@@ -148,7 +148,7 @@ a:hover {
   margin-bottom: 1.5rem;
 }
 
-/* Collapsible section headers (desktop: inert, looks like a plain heading) */
+/* Collapsible section headers */
 .section-toggle {
   all: unset;
   display: flex;
@@ -156,7 +156,7 @@ a:hover {
   justify-content: space-between;
   gap: 0.5rem;
   width: 100%;
-  cursor: default;
+  cursor: pointer;
 }
 
 .section-toggle:focus-visible {
@@ -165,10 +165,24 @@ a:hover {
 }
 
 .toggle-icon {
-  display: none;
+  display: inline-block;
   flex-shrink: 0;
   font-size: 0.8em;
   transition: transform 0.2s ease;
+}
+
+.section-toggle[aria-expanded="false"] .toggle-icon {
+  transform: rotate(-90deg);
+}
+
+.section-body {
+  overflow: hidden;
+  max-height: 3000px;
+  transition: max-height 0.3s ease;
+}
+
+.section-body.is-collapsed {
+  max-height: 0;
 }
 
 /* Skills */
@@ -383,29 +397,10 @@ a:hover {
     padding: 1rem;
   }
 
-  /* Collapsible section headers become interactive */
+  /* Bigger tap target for the collapsible section headers */
   .section-toggle {
-    cursor: pointer;
     min-height: 44px;
     padding: 0.5rem 0;
-  }
-
-  .toggle-icon {
-    display: inline-block;
-  }
-
-  .section-toggle[aria-expanded="false"] .toggle-icon {
-    transform: rotate(-90deg);
-  }
-
-  .section-body {
-    overflow: hidden;
-    max-height: 3000px;
-    transition: max-height 0.3s ease;
-  }
-
-  .section-body.is-collapsed {
-    max-height: 0;
   }
 
   /* Prevent long unbroken text from causing horizontal scroll */
