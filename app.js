@@ -13,14 +13,12 @@ navLinks.querySelectorAll("a").forEach((link) => {
     navLinks.classList.remove("open");
     navToggle.setAttribute("aria-expanded", "false");
 
-    // On mobile, expand the target section if it's collapsed. This runs before the
-    // browser follows the anchor, so the smooth scroll lands on the expanded layout.
-    if (window.matchMedia("(max-width: 768px)").matches) {
-      const section = document.querySelector(link.getAttribute("href"));
-      const toggle = section && section.querySelector(".section-toggle");
-      if (toggle && toggle.getAttribute("aria-expanded") === "false") {
-        toggle.click();
-      }
+    // Expand the target section if it's collapsed. This runs before the browser
+    // follows the anchor, so the smooth scroll lands on the expanded layout.
+    const section = document.querySelector(link.getAttribute("href"));
+    const toggle = section && section.querySelector(".section-toggle");
+    if (toggle && toggle.getAttribute("aria-expanded") === "false") {
+      toggle.click();
     }
   });
 });
@@ -33,11 +31,3 @@ document.querySelectorAll(".section-toggle").forEach((toggle) => {
     body.classList.toggle("is-collapsed", isExpanded);
   });
 });
-
-// Sections default to collapsed for the mobile layout; start them expanded on desktop.
-if (window.matchMedia("(min-width: 769px)").matches) {
-  document.querySelectorAll('.section-toggle[aria-expanded="false"]').forEach((toggle) => {
-    toggle.setAttribute("aria-expanded", "true");
-    document.getElementById(toggle.getAttribute("aria-controls")).classList.remove("is-collapsed");
-  });
-}
