@@ -12,6 +12,16 @@ navLinks.querySelectorAll("a").forEach((link) => {
   link.addEventListener("click", () => {
     navLinks.classList.remove("open");
     navToggle.setAttribute("aria-expanded", "false");
+
+    // On mobile, expand the target section if it's collapsed. This runs before the
+    // browser follows the anchor, so the smooth scroll lands on the expanded layout.
+    if (window.matchMedia("(max-width: 768px)").matches) {
+      const section = document.querySelector(link.getAttribute("href"));
+      const toggle = section && section.querySelector(".section-toggle");
+      if (toggle && toggle.getAttribute("aria-expanded") === "false") {
+        toggle.click();
+      }
+    }
   });
 });
 
